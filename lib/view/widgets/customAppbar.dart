@@ -8,7 +8,6 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const SizedBox(height: 150, width: 20),
         Text(
           'Notes',
           style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
